@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+    <link rel="stylesheet" href="css/base.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body class="with_background">
+    <header class="header">
+      <a href="index.html">
+        <img src="img/logo/LiliPhotography_white.svg" class="logo" alt="LiliPhotography" />
+      </a>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="gallery.html" class="mav__link">Галерея</a>
+          </li>
+          <li class="nav__item">
+            <a href="services.html" class="mav__link">Услуги и фотостудии</a>
+          </li>
+          <li class="nav__item">
+            <a href="" class="mav__link">Отзывы</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="gallery">
+      <div class="gallery__header">
+        <h2 class="title">Галерея</h2>
+
+        <div class="category">
+          <label for="category" class="category__label">Категория</label>
+
+          <select name="category" id="category" class="category__select">
+            <option value="" disabled selected hidden>Категория</option>
+            <option class="category__option" value="Все">Все</option>
+            <option class="category__option" value="Личное">Личное</option>
+            <option class="category__option" value="Групповое">Групповое</option>
+            <option class="category__option" value="Свадебное">Свадебное</option>
+            <option class="category__option" value="Студийная">Студийная</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="gallery__photos">
+        <div class="gallery__photo">
+          <div class="gallery__photo-content">
+            <div class="gallery__photo-header">
+              <p class="gallery__photo-likes">3,400</p>
+            </div>
+            <div class="gallery__photo-footer">
+              <p class="gallery__photo-author">@liliphotographyinst</p>
+            </div>
+          </div>
+          <img src="/img/gallery/1.jpg" alt="photo" class="gallery__photo-img" />
+          <img src="/img/gallery/1.jpg" alt="photo" class="gallery__photo-img_hover" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <h3 class="footer__title">Контакты</h3>
+
+      <ul class="social">
+        <li>
+          <a href="#" class="social__item">
+            <img src="img/icons/inst.svg" alt="inst" />
+            <span>@liliphotographyinst</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social__item">
+            <img src="img/icons/twit.svg" alt="twit" />
+            <span>@liliphotographytw</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social__item">
+            <img src="img/icons/telegram.svg" alt="telegram" />
+            <span>@liliphotographytg</span>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+  </body>
+</html>
